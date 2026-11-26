@@ -1,0 +1,70 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+**/Content/bin/
+**/Content/obj/
+TestResults/
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+**/__pycache__/
+*.pyc
+
+# Never commit game files: disk images, ROMs, cartridges, or importer output
+# Apple II
+*.dsk
+*.do
+*.po
+*.nib
+*.woz
+*.2mg
+# Commodore
+*.d64
+*.d71
+*.d81
+*.g64
+*.t64
+*.prg
+*.crt
+# Atari 8-bit / ST
+*.atr
+*.atx
+*.xex
+*.st
+*.stx
+*.msa
+# Amiga
+*.adf
+*.ipf
+*.hdf
+# PC / Japanese computers
+*.ima
+*.img
+*.imd
+*.xdf
+*.hdm
+*.d88
+*.d77
+*.fdi
+*.hdi
+*.dim
+# Consoles
+*.nes
+*.sms
+*.rom
+# Kickstart and other ROMs
+*.A500
+/games/
+/import/
+/import.tmp/
+/imported/
